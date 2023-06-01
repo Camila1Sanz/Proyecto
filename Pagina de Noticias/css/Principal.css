@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f8ffe5;
+    font-style: italic
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    margin: 35px;
+    text-shadow: 3px 3px 5px black;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+nav{
+    margin: 30px auto;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    transition: all .4s;
+}
+nav ul li a:hover{
+    font-size: 22px;
+    padding: 11px;
+    color: red;
+}
+section{
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+article{
+    border: solid 2px;
+    border-radius: 15px;
+    width: 30%;
+    margin-bottom: 45px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px black;
+}
+article img{
+    width: 340px;
+    height: 220px;
+    margin-top: 15px;
+}
+article a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    letter-spacing: 2px;
+    transition: all .5s;
+}
+article a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px;
+}
+.parrafo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 25px 10px;
+}
+footer{
+    background: linear-gradient(#a4c2a5, #d8dad3);
+    text-align: center;
+    padding: 10px;
+    transition: all .5s;
+}
+footer p{
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: dotted 3px;
+    margin-bottom: 10px; 
+    transition: inherit;
+}
+footer .derechos:hover{
+    font-size: 19px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px red;
+    cursor: pointer;    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 15px;
+    transition: inherit;
+}
+footer a:hover{
+    font-size: 28px;
+    color: red;
+    text-shadow: 0 0 15px black, 0 0 30px black, 0 0 50px black;
+}
